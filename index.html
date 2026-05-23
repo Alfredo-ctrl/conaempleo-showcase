@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CONAEMPLEO Showcase</title>
+    <meta name="description" content="Privacy-safe public showcase for the CONAEMPLEO employability platform.">
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+  <body>
+    <div class="motion-field" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="CONAEMPLEO home">CONAEMPLEO</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#platform" data-i18n="navPlatform">Platform</a>
+        <a href="#privacy" data-i18n="navPrivacy">Privacy</a>
+        <a href="#repository" data-i18n="navRepository">Repository</a>
+      </nav>
+      <button class="language-switch" type="button" aria-label="Switch language" aria-pressed="false">
+        <span>EN</span>
+        <span>ES</span>
+        <i aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Public, privacy-safe edition</p>
+          <h1 data-i18n="heroTitle">A clearer bridge between students and real opportunities.</h1>
+          <p class="hero-text" data-i18n="heroText">
+            CONAEMPLEO connects students, graduates, companies, and coordinators through a guided employability workflow. This public version shows the idea without exposing private records.
+          </p>
+          <div class="hero-actions">
+            <a href="#platform" class="button primary" data-i18n="seePlatform">See platform map</a>
+            <a href="#repository" class="button secondary" data-i18n="seeRepo">Review safe repo</a>
+          </div>
+        </div>
+
+        <div class="live-map" aria-label="Platform flow preview">
+          <div class="rail rail-one"></div>
+          <div class="rail rail-two"></div>
+          <div class="map-node student">
+            <small data-i18n="nodeStudent">Student</small>
+            <strong>CV + skills</strong>
+          </div>
+          <div class="map-node ai">
+            <small data-i18n="nodeMatch">Matching</small>
+            <strong>AI score</strong>
+          </div>
+          <div class="map-node company">
+            <small data-i18n="nodeCompany">Company</small>
+            <strong>Vacancy</strong>
+          </div>
+          <div class="map-node admin">
+            <small data-i18n="nodeAdmin">Admin</small>
+            <strong>Review</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics-strip" aria-label="Mock platform metrics">
+        <article>
+          <span>24</span>
+          <p data-i18n="metricModules">mapped workflows</p>
+        </article>
+        <article>
+          <span>0</span>
+          <p data-i18n="metricPrivate">private files published</p>
+        </article>
+        <article>
+          <span>3</span>
+          <p data-i18n="metricRoles">core user roles</p>
+        </article>
+        <article>
+          <span>100%</span>
+          <p data-i18n="metricMock">mock data only</p>
+        </article>
+      </section>
+
+      <section class="section platform" id="platform">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="platformEyebrow">Platform map</p>
+          <h2 data-i18n="platformTitle">One product, different responsibilities.</h2>
+          <p data-i18n="platformText">
+            The private platform can keep operational complexity. The public repo explains the structure with safe samples and a clean interaction model.
+          </p>
+        </div>
+
+        <div class="role-tabs" role="tablist" aria-label="Role panels">
+          <button class="active" type="button" role="tab" aria-selected="true" data-role="students" data-i18n="tabStudents">Students</button>
+          <button type="button" role="tab" aria-selected="false" data-role="companies" data-i18n="tabCompanies">Companies</button>
+          <button type="button" role="tab" aria-selected="false" data-role="admins" data-i18n="tabAdmins">Admins</button>
+        </div>
+
+        <div class="workspace">
+          <aside class="workflow-list" aria-label="Workflow status">
+            <div>
+              <span class="status-dot good"></span>
+              <p data-i18n="flowProfile">Profile quality</p>
+              <strong>84%</strong>
+            </div>
+            <div>
+              <span class="status-dot warm"></span>
+              <p data-i18n="flowMatch">Match readiness</p>
+              <strong>71%</strong>
+            </div>
+            <div>
+              <span class="status-dot blue"></span>
+              <p data-i18n="flowReview">Coordinator review</p>
+              <strong>12</strong>
+            </div>
+          </aside>
+
+          <div class="role-panel" id="role-panel" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section timeline" id="privacy">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="privacyEyebrow">Publication boundary</p>
+          <h2 data-i18n="privacyTitle">Public on GitHub, private where it matters.</h2>
+        </div>
+
+        <div class="safety-steps">
+          <article>
+            <span>01</span>
+            <h3 data-i18n="stepAuditTitle">Audit the original</h3>
+            <p data-i18n="stepAuditText">Identify credentials, exports, uploads, and operational scripts before anything reaches Git.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3 data-i18n="stepRebuildTitle">Rebuild the public view</h3>
+            <p data-i18n="stepRebuildText">Use mock data, docs, and recreated screens instead of production files.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3 data-i18n="stepVerifyTitle">Verify the tree</h3>
+            <p data-i18n="stepVerifyText">Run a safety script that blocks obvious secrets and risky file types.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section repository" id="repository">
+        <div class="repo-copy">
+          <p class="eyebrow" data-i18n="repoEyebrow">Repository package</p>
+          <h2 data-i18n="repoTitle">Built to be reviewed without fear.</h2>
+          <p data-i18n="repoText">
+            This public edition includes a web showcase, architecture docs, privacy notes, fake records, and a safety check command.
+          </p>
+        </div>
+        <div class="repo-terminal" aria-label="Repository commands">
+          <pre><code>npm run check
+node tools/verify-safe-tree.js
+open index.html</code></pre>
+          <div class="terminal-line"><span></span><p data-i18n="terminalSafe">Safe public tree verified</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footerText">CONAEMPLEO Showcase - public portfolio edition with no production records.</p>
+    </footer>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>

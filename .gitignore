@@ -1,0 +1,36 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Private production data
+uploads/
+private-data/
+production-exports/
+backups/
+tablas/
+egresados/
+respaldo*/
+
+# Databases and raw exports
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+*.xlsx
+*.xls
+
+# Documents that may contain personal data
+*.pdf
+*.doc
+*.docx
+*.zip
+*.rar
+*.7z
+
+# Runtime and cache
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db

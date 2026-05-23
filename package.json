@@ -1,0 +1,20 @@
+{
+  "name": "conaempleo-showcase",
+  "version": "1.0.0",
+  "description": "A public, sanitized showcase for the CONAEMPLEO employment platform concept.",
+  "private": false,
+  "scripts": {
+    "check": "node --check src/app.js && node tools/verify-safe-tree.js",
+    "start": "python -m http.server 5188"
+  },
+  "keywords": [
+    "employment",
+    "education",
+    "portfolio",
+    "showcase",
+    "privacy",
+    "web"
+  ],
+  "author": "Alfredo Oliva",
+  "license": "MIT"
+}

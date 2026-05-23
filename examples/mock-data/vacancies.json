@@ -1,0 +1,16 @@
+[
+  {
+    "id": "vacancy-demo-01",
+    "company": "Northstar Labs",
+    "role": "Junior help desk assistant",
+    "requirements": ["basic networking", "service mindset", "documentation"],
+    "matchScore": 82
+  },
+  {
+    "id": "vacancy-demo-02",
+    "company": "Cedar Works",
+    "role": "Operations trainee",
+    "requirements": ["spreadsheets", "inventory", "team communication"],
+    "matchScore": 79
+  }
+]

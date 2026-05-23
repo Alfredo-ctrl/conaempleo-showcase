@@ -1,0 +1,16 @@
+[
+  {
+    "id": "student-demo-01",
+    "name": "Alex Rivera",
+    "program": "Software support",
+    "skills": ["HTML", "customer support", "basic SQL"],
+    "readinessScore": 84
+  },
+  {
+    "id": "student-demo-02",
+    "name": "Maya Torres",
+    "program": "Business administration",
+    "skills": ["inventory", "spreadsheets", "communication"],
+    "readinessScore": 78
+  }
+]
