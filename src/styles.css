@@ -275,6 +275,31 @@ h1 {
     linear-gradient(0deg, rgba(17, 25, 26, 0.06) 1px, transparent 1px) 0 0 / 54px 54px;
 }
 
+.parallax-frame {
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.parallax-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.parallax-frame .simpleParallax {
+  height: 100%;
+}
+
+.bridge-parallax {
+  position: absolute;
+  inset: 54px 8% auto auto;
+  width: min(480px, 82%);
+  height: 260px;
+  border: 1px solid rgba(17, 25, 26, 0.14);
+  opacity: 0.42;
+}
+
 .rail {
   position: absolute;
   left: 10%;
