@@ -1,3 +1,39 @@
+<!-- portfolio:start -->
+<p align="center">
+  <img src="assets/readme-hero.svg" alt="CONAEMPLEO Showcase banner" width="100%" />
+</p>
+
+<h1 align="center">CONAEMPLEO Showcase</h1>
+
+<p align="center"><strong>A privacy-safe public case study for an employability platform.</strong></p>
+
+<p align="center">
+<img alt="focus: case study" src="https://img.shields.io/badge/focus-case%20study-2f80ed?style=for-the-badge&labelColor=0f2f2e" />
+  <img alt="data: mock only" src="https://img.shields.io/badge/data-mock%20only-2f80ed?style=for-the-badge&labelColor=0f2f2e" />
+  <img alt="security: privacy-safe" src="https://img.shields.io/badge/security-privacy-safe-2f80ed?style=for-the-badge&labelColor=0f2f2e" />
+</p>
+
+## Public Case Study
+
+This repository is shaped as a safe showcase: architecture, interface direction, and mock flows without exposing private institutional data.
+
+## Safety Promise
+
+No student records, company data, admin credentials, production datasets, or internal secrets belong in this public version.
+
+## Review Path
+
+`npm install` then run the local scripts and inspect `SECURITY.md` for the public-safety boundary.
+
+## Portfolio Note
+
+This repository has its own visual identity inside the portfolio. The goal is that every project feels like a different product, not another copy of the same template.
+<!-- portfolio:end -->
+
+---
+
+## Existing Project Notes
+
 # CONAEMPLEO Showcase
 
 CONAEMPLEO Showcase is a public, sanitized portfolio edition of an employment platform for students, graduates, companies, and school administrators.

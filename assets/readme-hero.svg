@@ -1,0 +1,13 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CONAEMPLEO Showcase banner">
+  <rect width="1200" height="360" rx="34" fill="#f6f5f0"/>
+  <path d="M0 310 C180 220 310 395 510 286 C706 180 872 336 1200 170" stroke="#2f80ed" stroke-width="2" opacity=".28"/>
+  <path d="M0 58 H1200 M120 0 V360 M280 0 V360 M440 0 V360 M600 0 V360 M760 0 V360 M920 0 V360 M1080 0 V360" stroke="#0f2f2e" opacity=".08"/>
+  
+    <text x="70" y="128" fill="#0f2f2e" font-size="22" font-weight="800" letter-spacing="4">CONAEMPLEO-SHOWCASE</text>
+    <text x="70" y="192" fill="#0f2f2e" font-size="58" font-weight="900">CONAEMPLEO Showcase</text>
+    <foreignObject x="70" y="218" width="610" height="88">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="color:#0f2f2e;font:700 24px Segoe UI, Arial, sans-serif;line-height:1.25">A privacy-safe public case study for an employability platform.</div>
+    </foreignObject>
+  <path d="M745 255 V120 L900 70 L1055 120 V255" fill="none" stroke="#0f2f2e" stroke-width="8"/><path d="M790 245 V155 H1010 V245" fill="#2f80ed" opacity=".35"/><circle cx="900" cy="126" r="22" fill="#f2c94c"/><path d="M820 185 H980 M820 220 H980" stroke="#0f2f2e" stroke-width="8"/>
+  <text x="70" y="315" fill="#0f2f2e" font-size="18" font-weight="800" opacity=".72">Portfolio README identity 07</text>
+</svg>
