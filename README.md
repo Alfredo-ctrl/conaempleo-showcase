@@ -1,38 +1,15 @@
-<!-- portfolio:start -->
 <p align="center">
-  <img src="assets/readme-hero.svg" alt="CONAEMPLEO Showcase banner" width="100%" />
+  <img src="assets/readme-hero.svg" alt="CONAEMPLEO Platform Architecture Architectural Banner" width="100%" />
 </p>
 
-<h1 align="center">CONAEMPLEO Showcase</h1>
-
-<p align="center"><strong>A privacy-safe public case study for an employability platform.</strong></p>
-
 <p align="center">
-<img alt="focus: case study" src="https://img.shields.io/badge/focus-case%20study-2f80ed?style=for-the-badge&labelColor=0f2f2e" />
-  <img alt="data: mock only" src="https://img.shields.io/badge/data-mock%20only-2f80ed?style=for-the-badge&labelColor=0f2f2e" />
-  <img alt="security: privacy-safe" src="https://img.shields.io/badge/security-privacy-safe-2f80ed?style=for-the-badge&labelColor=0f2f2e" />
+  <img src="https://img.shields.io/badge/TYPE-ARCHITECTURAL%20CASE%20STUDY-0F172A?style=flat-square&labelColor=05080F&color=0284C7" alt="TYPE: ARCHITECTURAL CASE STUDY" />
+  <img src="https://img.shields.io/badge/DATA-SANITIZED%20MOCK%20ONLY-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="DATA: SANITIZED MOCK ONLY" />
+  <img src="https://img.shields.io/badge/LOCALIZATION-ES%20/%20EN%20BILINGUAL-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="LOCALIZATION: ES / EN BILINGUAL" />
+  <img src="https://img.shields.io/badge/SECURITY-ZERO%20PII%20EXPOSURE-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="SECURITY: ZERO PII EXPOSURE" />
 </p>
-
-## Public Case Study
-
-This repository is shaped as a safe showcase: architecture, interface direction, and mock flows without exposing private institutional data.
-
-## Safety Promise
-
-No student records, company data, admin credentials, production datasets, or internal secrets belong in this public version.
-
-## Review Path
-
-`npm install` then run the local scripts and inspect `SECURITY.md` for the public-safety boundary.
-
-## Portfolio Note
-
-This repository has its own visual identity inside the portfolio. The goal is that every project feels like a different product, not another copy of the same template.
-<!-- portfolio:end -->
 
 ---
-
-## Existing Project Notes
 
 # CONAEMPLEO Showcase
 
